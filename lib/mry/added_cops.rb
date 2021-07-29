@@ -2,6 +2,162 @@ module Mry
   # TODO: Replace this list with VersionAdded
   module AddedCops
     Cops = {
+      Gem::Version.new('1.18.0') => %w[
+        Naming/InclusiveLanguage
+      ],
+      Gem::Version.new('1.17.0') => %w[],
+      Gem::Version.new('1.16.0') => %w[
+        Style/InPatternThen
+        Lint/EmptyInPattern
+        Style/MultilineInPatternThen
+      ],
+      Gem::Version.new('1.15.0') => %w[
+        Style/TopLevelMethodDefinition
+      ],
+      Gem::Version.new('1.14.0') => %w[
+        Bundler/GemVersion
+        Layout/SingleLineBlockChain
+      ],
+      Gem::Version.new('1.13.0') => %w[
+        Layout/RedundantLineBreak
+      ],
+      Gem::Version.new('1.12.0') => %w[
+        Style/StringChars
+      ],
+      Gem::Version.new('1.11.0') => %w[
+        Style/UnlessLogicalOperators
+      ],
+      Gem::Version.new('1.10.0') => %w[
+        Style/HashConversion
+        Gemspec/DateAssignment
+      ],
+      Gem::Version.new('1.9.0') => %w[
+        Style/IfWithBooleanLiteralBranches
+        Lint/TripleQuotes
+        Lint/SymbolConversion
+        Lint/OrAssignmentToConstant
+        Lint/NumberedParameterAssignment
+      ],
+      Gem::Version.new('1.8.0') => %w[
+        Lint/DeprecatedConstants
+        Lint/RedundantDirGlobSort
+        Style/EndlessMethod
+      ],
+      Gem::Version.new('1.7.0') => %w[
+        Lint/AmbiguousAssignment
+        Style/HashExcept
+        Layout/SpaceBeforeBrackets
+      ],
+      Gem::Version.new('1.6.0') => %w[],
+      Gem::Version.new('1.5.0') => %w[
+        Lint/UnexpectedBlockArity
+      ],
+      Gem::Version.new('1.4.0') => %w[
+        Style/RedundantArgument
+      ],
+      Gem::Version.new('1.3.0') => %w[
+        Style/StaticClass
+        Style/NilLambda
+        Lint/DuplicateBranch
+      ],
+      Gem::Version.new('1.2.0') => %w[
+        Style/NegatedIfElseCondition
+      ],
+      Gem::Version.new('1.1.0') => %w[
+        Lint/DuplicateRegexpCharacterClassElement
+        Lint/EmptyBlock
+        Style/SwapValues
+        Style/ArgumentsForwarding
+        Lint/UnmodifiedReduceAccumulator
+        Style/DocumentDynamicEvalDefinition
+        Lint/ToEnumArguments
+      ],
+      Gem::Version.new('1.0.0') => %w[],
+      Gem::Version.new('0.93.0') => %w[
+        Lint/HashCompareByIdentity
+        Style/ClassEqualityComparison
+        Lint/RedundantSafeNavigation
+      ],
+      Gem::Version.new('0.92.0') => %w[],
+      Gem::Version.new('0.91.0') => %w[
+        Layout/BeginEndAlignment
+        Lint/IdentityComparison
+        Lint/UselessTimes
+        Lint/ConstantDefinitionInBlock
+      ],
+      Gem::Version.new('0.90.0') => %w[
+        Style/RedundantSelfAssignment
+        Layout/EmptyLineAfterMultilineCondition
+        Style/SoleNestedConditional
+        Style/KeywordParametersOrder
+        Style/CombinableLoops
+        Style/ClassMethodsDefinitions
+        Lint/DuplicateRequire
+        Lint/UselessMethodDefinition
+        Lint/EmptyFile
+        Lint/TrailingCommaInAttributeDeclaration
+      ],
+      Gem::Version.new('0.89.0') => %w[
+        Lint/SelfAssignment
+        Lint/DuplicateRescueException
+        Lint/BinaryOperatorWithIdenticalOperands
+        Lint/UnreachableLoop
+        Style/OptionalBooleanParameter
+        Lint/FloatComparison
+        Lint/MissingSuper
+        Style/ExplicitBlockArgument
+        Style/StringConcatenation
+        Lint/TopLevelReturnWithArgument
+        Style/GlobalStdStream
+        Style/SingleArgumentDig
+        Lint/EmptyConditionalBody
+        Lint/OutOfRangeRegexpRef
+      ],
+      Gem::Version.new('0.88.0') => %w[
+        Style/RedundantFileExtensionInRequire
+        Style/ArrayCoercion
+        Lint/DuplicateElsifCondition
+        Style/CaseLikeIf
+        Style/HashAsLastArrayItem
+        Style/HashLikeCase
+      ],
+      Gem::Version.new('0.87.0') => %w[
+        Style/AccessorGrouping
+        Style/BisectedAttrAccessor
+        Style/RedundantAssignment
+      ],
+      Gem::Version.new('0.86.0') => %w[
+        Style/RedundantFetchBlock
+        Lint/ConstantResolution
+      ],
+      Gem::Version.new('0.85.0') => %w[
+        Style/RedundantRegexpCharacterClass
+        Style/RedundantRegexpEscape
+        Lint/MixedRegexpCaptureTypes
+      ],
+      Gem::Version.new('0.84.0') => %w[
+        Lint/DeprecatedOpenSSLConstant
+      ],
+      Gem::Version.new('0.83.0') => %w[
+        Style/SlicingWithRange
+        Layout/EmptyLineAroundAttributeAccessor
+      ],
+      Gem::Version.new('0.82.0') => %w[
+        Style/ExponentialNotation
+        Style/DisableCopsWithinSourceCodeDirective
+        Layout/SpaceAroundMethodCallOperator
+      ],
+      Gem::Version.new('0.81.0') => %w[
+        Lint/RaiseException
+        Lint/StructNewOverride
+        Style/TrailingCommaInBlockArgs
+      ],
+      Gem::Version.new('0.80.0') => %w[
+        Style/HashTransformKeys
+        Style/HashTransformValues
+        Style/HashEachMethods
+      ],
+      Gem::Version.new('0.79.0') => %w[],
       Gem::Version.new('0.78.0') => %w[
         Lint/NonDeterministicRequireOrder
       ],
